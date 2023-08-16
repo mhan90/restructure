@@ -1,0 +1,23 @@
+<h1>Products: </h1>
+<h4>Page: {{page}}</h4>
+<h5>New cart: {{cart}}</h5>
+<div id="list">
+    {{#each products}}
+    <div id="{{this._id}}">
+        <ul>
+            <li><b>id: </b>{{this._id}}</li>
+            <li><b>title: </b>{{this.title}}</li>
+            <li><b>description: </b>{{this.description}}</li>
+            <li><b>price: </b>{{this.price}}</li>
+            <li><b>thumbnails: </b>{{this.thumbnails}}</li>
+            <li><b>code: </b>{{this.code}}</li>
+            <li><b>stock: </b>{{this.stock}}</li>
+            <li><b>category: </b>{{this.category}}</li>
+            <li><b>status: </b>{{this.status}}</li>
+            <button onclick="addProduct({{../cart}},{{this._id}})">add to cart</button>
+        </ul>
+    </div>
+</div>
+
+{{/each}}
+<script src="/js/front.js"></script>
