@@ -1,43 +1,47 @@
 import express from "express";
 import mongoose from "mongoose";
-import { Server as HttpServer } from "http";
-import { Server as SocketServer } from "socket.io";
 import handlebars from "express-handlebars";
+import cookieParser from "cookie-parser";
+import session from "express-session";
+import MongoStore from "connect-mongo";
 import dotenv from "dotenv";
 import __dirname from "./config/__dirname.js";
 import productsRouter from "./routes/products.js";
 import cartsRouter from "./routes/carts.js";
 import mainRouter from "./routes/main.js";
 
-// Setting DB
+// Setting MongoDB
 dotenv.config();
 const conn = await mongoose.connect(process.env.MONGODB_URL);
 // Setting express
 const app = express();
+// Body middlewares
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+// Cookies config
+app.use(cookieParser());
+// Session config
+app.use(session({
+  secret: "coderHouseSecretKey",
+  resave: true,
+  saveUninitialized: true,
+  store: new MongoStore({
+    mongoUrl: process.env.MONGODB_URL,
+    ttl: 3600
+  }),
+  ttl: 3600
+}));
 // Static content
 app.use(express.static(`${__dirname}/public`));
 // Handlebars config
 app.engine("handlebars", handlebars.engine());
 app.set("views", `${__dirname}/views`);
 app.set("view engine", "handlebars");
-//  Setting up server with http
-const httpServer = HttpServer(app);
-// Socket wrapper
-const io = new SocketServer(httpServer);
-// Middleware
-app.use((req, res, next) => {
-  req.io = io;
-  next();
-});
 //  Router
 app.use("/", mainRouter);
 app.use("/api/products", productsRouter);
 app.use("/api/carts", cartsRouter);
-// Socket methods
-
 // Listen
-httpServer.listen(8080, () => {
+app.listen(8080, () => {
   console.log("Server is now listening at port: 8080.");
 });

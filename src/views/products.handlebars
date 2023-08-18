@@ -1,6 +1,10 @@
-<h1>Products: </h1>
+<h1>Welcome {{user.first_name}} {{user.last_name}}!</h1>
+<h4>email: {{user.email}}</h4>
+<h4>role: {{user.role}}</h4>
+<button onclick="window.location.href='http://localhost:8080/logout';">logout</button>
+<h4>Products: </h4>
 <h4>Page: {{page}}</h4>
-<h5>New cart: {{cart}}</h5>
+<h4>New cart: {{cart}}</h4>
 <div id="list">
     {{#each products}}
     <div id="{{this._id}}">
@@ -14,7 +18,7 @@
             <li><b>stock: </b>{{this.stock}}</li>
             <li><b>category: </b>{{this.category}}</li>
             <li><b>status: </b>{{this.status}}</li>
-            <button onclick="addProduct({{../cart}},{{this._id}})">add to cart</button>
+            <button onclick="addProduct()">add to cart</button>
         </ul>
     </div>
 </div>

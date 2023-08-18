@@ -1,8 +1,7 @@
-import { urlencoded } from "express";
 import ProductModel from "./models/product.model.js";
 
 export default class ProductManager {
-  constructor() { }
+  constructor() {}
 
   /**
    * Adds a new product to db.
