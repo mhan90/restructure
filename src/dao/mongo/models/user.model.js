@@ -5,7 +5,10 @@ const schema = new mongoose.Schema({
     type: String,
   },
   last_name: String,
-  email: String,
+  email: {
+    type: String,
+    default: ""
+  },
   age: {
     type: Number,
     default: 99

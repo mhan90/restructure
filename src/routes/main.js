@@ -1,27 +1,25 @@
 import { Router } from "express";
 import ProductManager from "../dao/mongo/ProductManager.js";
 import CartManager from "../dao/mongo/CartManager.js";
-import UserManager from "../dao/mongo/UserManager.js";
 import { isLogged, protectView } from "../utils/protection.middleware.js";
+import passport from "passport";
 
 const mainRouter = Router();
 const prodsDB = new ProductManager();
 const cartsDB = new CartManager();
-const userDB = new UserManager();
 
 mainRouter.get("/login", isLogged, (req, res) => {
     res.render("login");
 });
 
-mainRouter.post("/login", isLogged, async (req, res) => {
-    const { email, password } = req.body;
-    const user = await userDB.validateUser(email, password);
-    if (!user) return res.redirect("/login");
-    delete user.password;
-    delete user.salt;
-    req.session.user = user;
-    res.redirect("/products");
-});
+mainRouter.post(
+    "/login",
+    passport.authenticate("login", {
+        successRedirect: "/products",
+        failureRedirect: "/login"
+    }),
+    async (req, res) => { }
+);
 
 mainRouter.get("/logout", protectView, async (req, res) => {
     req.session.destroy((e) => {
@@ -33,11 +31,14 @@ mainRouter.get("/register", isLogged, (req, res) => {
     res.render("register");
 });
 
-mainRouter.post("/register", isLogged, async (req, res) => {
-    const { first_name, last_name, email, password, age } = req.body;
-    const user = await userDB.newUser({ first_name, last_name, email, password, age });
-    res.redirect("/products");
-});
+mainRouter.post(
+    "/register",
+    passport.authenticate("register", {
+        successRedirect: "/products",
+        failureRedirect: "/register"
+    }),
+    (req, res) => { }
+);
 
 mainRouter.get("/products", protectView, async (req, res) => {
     try {
@@ -48,7 +49,7 @@ mainRouter.get("/products", protectView, async (req, res) => {
             res.status(400).send(result);
         } else {
             const cart = await cartsDB.addCart();
-            const data = { title: "Products list", products: result.payload, page: result.page, cart: cart.payload._id, user: req.session.user };
+            const data = { title: "Products list", products: result.payload, page: result.page, cart: cart.payload._id, user: req.user };
             res.render("products", data);
         }
     } catch (e) {
