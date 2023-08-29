@@ -29,7 +29,7 @@ const InitPassportStrats = () => {
                     email,
                     age,
                     password,
-                    role: email == "admincoder@coder.com" ? "admin" : "user",
+                    role: email == "adminCoder@coder.com" ? "admin" : "user",
                 });
 
                 return done(null, user.toObject());
@@ -71,7 +71,7 @@ const InitPassportStrats = () => {
                     last_name: profile._json.name.split(" ")[1],
                     email: profile._json.email,
                     password: "",
-                    role: profile._json.email == "admincoder@coder.com" ? "admin" : "user",
+                    role: profile._json.email == "adminCoder@coder.com" ? "admin" : "user",
                 });
                 done(null, newUser);
             }
