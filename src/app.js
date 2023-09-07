@@ -13,6 +13,7 @@ import mainRouter from "./routes/main.router.js";
 import InitPassportStrategies from "./config/passport.config.js";
 import authRouter from "./routes/auth.router.js";
 import loginRouter from "./routes/login.router.js";
+import sessionRouter from "./routes/sessions.router.js";
 
 // Setting MongoDB
 dotenv.config();
@@ -51,6 +52,7 @@ app.use("/api/auth", authRouter)
 app.use("/api/products", productsRouter);
 app.use("/api/carts", cartsRouter);
 app.use("/api/login", loginRouter)
+app.use("/api/sessions", sessionRouter);
 // Listen
 app.listen(8080, () => {
   console.log("Server is now listening at port: 8080.");
