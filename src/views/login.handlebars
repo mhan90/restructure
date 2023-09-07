@@ -1,4 +1,4 @@
-<form method="POST">
+<form method="POST" id="login_form">
     <div>
         <label />email <input type="text" name="email" placeholder="email" />
     </div>
@@ -12,6 +12,8 @@
 <div>
     <button onclick="window.location.href='/register';">Sign in</button>
 </div>
-<div>
+{{!-- <div>
     <button onclick="window.location.href='/api/auth/github';">Log in with Github</button>
-</div>
+</div> --}}
+
+<script src="./js/form.js"></script>

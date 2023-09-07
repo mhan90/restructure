@@ -1,13 +1,16 @@
 import passport from "passport";
 import local from "passport-local";
 import GithubStrategy from "passport-github2";
+import jwt from "passport-jwt";
+import { SECRET } from "../utils/jwt.js";
 import UserManager from "../dao/mongo/UserManager.js";
 import dotenv from "dotenv";
+import cookieExtrator from "../utils/cookieJWT.js";
 dotenv.config();
 
 const User = new UserManager();
 
-const InitPassportStrats = () => {
+const InitPassportStrategies = () => {
     // local register
     passport.use(
         "register",
@@ -78,18 +81,35 @@ const InitPassportStrats = () => {
         )
     );
 
+    // JWT 
+    passport.use(
+        "jwt",
+        new jwt.Strategy(
+            {
+                jwtFromRequest: jwt.ExtractJwt.fromExtractors([cookieExtrator]),
+                // jwtFromRequest: jwt.ExtractJwt.fromAuthHeaderAsBearerToken(),
+                secretOrKey: SECRET,
+            },
+            async (payload, done) => {
+                const user = await User.getUserByID(payload.sub);
+                if (!user) return done("Unauthorized");
+                return done(null, user);
+            }
+        )
+    );
+
     passport.serializeUser((user, done) => {
         // console.log(user);
-        done(null, user.email);
+        done(null, user._id);
     });
 
     passport.deserializeUser(async (id, done) => {
         try {
-            const user = await User.getUserByEmail(id);
+            const user = await User.getUserByID(id);
             done(null, user);
         } catch (e) {
             done(null, false);
         }
     });
 };
-export default InitPassportStrats;
+export default InitPassportStrategies;

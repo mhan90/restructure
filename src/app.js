@@ -7,11 +7,12 @@ import MongoStore from "connect-mongo";
 import passport from "passport";
 import dotenv from "dotenv";
 import __dirname from "./config/__dirname.js";
-import productsRouter from "./routes/products.js";
-import cartsRouter from "./routes/carts.js";
-import mainRouter from "./routes/main.js";
-import InitPassportStrats from "./config/passport.config.js";
-import authRouter from "./routes/auth.js";
+import productsRouter from "./routes/products.router.js";
+import cartsRouter from "./routes/carts.router.js";
+import mainRouter from "./routes/main.router.js";
+import InitPassportStrategies from "./config/passport.config.js";
+import authRouter from "./routes/auth.router.js";
+import loginRouter from "./routes/login.router.js";
 
 // Setting MongoDB
 dotenv.config();
@@ -35,7 +36,7 @@ app.use(session({
   ttl: 3600
 }));
 // Passport config
-InitPassportStrats();
+InitPassportStrategies();
 app.use(passport.initialize());
 app.use(passport.session());
 // Static content
@@ -49,6 +50,7 @@ app.use("/", mainRouter);
 app.use("/api/auth", authRouter)
 app.use("/api/products", productsRouter);
 app.use("/api/carts", cartsRouter);
+app.use("/api/login", loginRouter)
 // Listen
 app.listen(8080, () => {
   console.log("Server is now listening at port: 8080.");

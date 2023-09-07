@@ -7,17 +7,17 @@ const schema = new mongoose.Schema({
   last_name: String,
   email: {
     type: String,
+    unique: true,
     default: ""
   },
   age: {
     type: Number,
-    default: 99
+    default: 0
   },
   password: {
     type: String,
     required: true,
   },
-  salt: String,
   role: {
     type: String,
     enum: ["admin", "user"],

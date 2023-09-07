@@ -14,6 +14,15 @@ export default class UserManager {
         }
     }
 
+    getUserByID = async (id) => {
+        try {
+            return await UserModel.findById(id).lean();
+        } catch (e) {
+            console.error(e);
+            throw e;
+        }
+    }
+
     getUserByEmail = async (email) => {
         try {
             return await UserModel.findOne({ email }).lean();

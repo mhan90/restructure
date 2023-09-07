@@ -3,12 +3,14 @@ import ProductManager from "../dao/mongo/ProductManager.js";
 import CartManager from "../dao/mongo/CartManager.js";
 import { isLogged, protectView } from "../utils/protection.middleware.js";
 import passport from "passport";
+import passportMDW from "../utils/jwt.mdw.js";
+import { newToken } from "../utils/jwt.js";
 
 const mainRouter = Router();
 const prodsDB = new ProductManager();
 const cartsDB = new CartManager();
 
-mainRouter.get("/login", isLogged, (req, res) => {
+mainRouter.get("/login", (req, res) => {
     res.render("login");
 });
 
@@ -21,26 +23,27 @@ mainRouter.post(
     async (req, res) => { }
 );
 
-mainRouter.get("/logout", protectView, async (req, res) => {
+mainRouter.get("/logout", async (req, res) => {
     req.session.destroy((e) => {
+        res.clearCookie("token");
         res.redirect("/login");
     });
 });
 
-mainRouter.get("/register", isLogged, (req, res) => {
+mainRouter.get("/register", (req, res) => {
     res.render("register");
 });
 
 mainRouter.post(
     "/register",
     passport.authenticate("register", {
-        successRedirect: "/products",
+        successRedirect: "/login",
         failureRedirect: "/register"
     }),
     (req, res) => { }
 );
 
-mainRouter.get("/products", protectView, async (req, res) => {
+mainRouter.get("/products", passportMDW("jwt"), async (req, res) => {
     try {
         const host = req.headers.host;
         const { limit = 10, page = 1, query, sort } = req.query;
