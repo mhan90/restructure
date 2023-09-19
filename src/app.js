@@ -5,19 +5,18 @@ import cookieParser from "cookie-parser";
 import session from "express-session";
 import MongoStore from "connect-mongo";
 import passport from "passport";
-import dotenv from "dotenv";
 import __dirname from "./config/__dirname.js";
-import productsRouter from "./routes/products.router.js";
-import cartsRouter from "./routes/carts.router.js";
+import productsRouter from "./routes/product.router.js";
+import cartsRouter from "./routes/cart.router.js";
 import mainRouter from "./routes/main.router.js";
 import InitPassportStrategies from "./config/passport.config.js";
 import authRouter from "./routes/auth.router.js";
 import loginRouter from "./routes/login.router.js";
-import sessionRouter from "./routes/sessions.router.js";
+import sessionRouter from "./routes/session.router.js";
+import ENV from "./config/config.js";
 
 // Setting MongoDB
-dotenv.config();
-const conn = await mongoose.connect(process.env.MONGODB_URL);
+const conn = await mongoose.connect(ENV.MONGODB_URL);
 // Setting express
 const app = express();
 // Body middlewares
@@ -31,7 +30,7 @@ app.use(session({
   resave: true,
   saveUninitialized: true,
   store: new MongoStore({
-    mongoUrl: process.env.MONGODB_URL,
+    mongoUrl: ENV.MONGODB_URL,
     ttl: 3600
   }),
   ttl: 3600

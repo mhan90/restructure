@@ -2,11 +2,9 @@ import passport from "passport";
 import local from "passport-local";
 import GithubStrategy from "passport-github2";
 import jwt from "passport-jwt";
-import { SECRET } from "../utils/jwt.js";
 import UserManager from "../dao/mongo/UserManager.js";
-import dotenv from "dotenv";
 import cookieExtrator from "../utils/cookieJWT.js";
-dotenv.config();
+import ENV from "../config/config.js";
 
 const User = new UserManager();
 
@@ -61,8 +59,8 @@ const InitPassportStrategies = () => {
         "github",
         new GithubStrategy(
             {
-                clientID: process.env.GIT_ID,
-                clientSecret: process.env.GIT_SECRET,
+                clientID: ENV.GIT_ID,
+                clientSecret: ENV.GIT_SECRET,
                 callbackURL: "http://localhost:8080/api/auth/callback",
             },
             async (accessToken, refreshToken, profile, done) => {
@@ -88,7 +86,7 @@ const InitPassportStrategies = () => {
             {
                 jwtFromRequest: jwt.ExtractJwt.fromExtractors([cookieExtrator]),
                 // jwtFromRequest: jwt.ExtractJwt.fromAuthHeaderAsBearerToken(),
-                secretOrKey: SECRET,
+                secretOrKey: ENV.JWT_SECRET,
             },
             async (payload, done) => {
                 const user = await User.getUserByID(payload.sub);
