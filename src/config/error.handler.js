@@ -5,6 +5,9 @@ const errorHandler = (error, res) => {
         case "product not found":
         case "missing data":
         case "product already exists":
+        case "cart not found":
+        case "product not found at cart":
+        case "invalid product":
             res.status(400).send(response);
             break;
         default:

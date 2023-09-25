@@ -5,6 +5,6 @@ export default class Products {
     getProductById = async (id) => ProductModel.findById(id);
     getProductByCode = async (code) => ProductModel.findOne({ code });
     addProduct = async (product) => ProductModel.create(product);
-    updateProduct = async (id, data) => ProductModel.findByIdAndUpdate(id, data);
+    updateProduct = async (id, data) => ProductModel.findByIdAndUpdate(id, data, { new: true });
     deleteProduct = async (id) => ProductModel.findByIdAndDelete(id);
 }

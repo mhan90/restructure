@@ -1,48 +1,44 @@
-import CartManager from "../dao/mongo/CartManager.js";
-
-const db = new CartManager();
+import errorHandler from "../config/error.handler.js";
+import * as CartService from "../services/carts.service.js";
 
 export const GetCart = async (req, res) => {
     try {
         const { id } = req.params;
-        res.send(await db.getCart(id));
+        const cart = await CartService.GetCart(id);
+        if (!cart) throw new Error("cart not found");
+        res.send({ status: "success", payload: cart });
     } catch (e) {
-        res.status(500).send({ status: "error while getting cart", error: e });
+        errorHandler(e.message, res);
     }
 }
 
 export const PostNewCart = async (req, res) => {
     try {
-        res.send(await db.addCart());
+        const cart = await CartService.AddCart();
+        res.send({ status: "success", payload: cart });
     } catch (e) {
-        res.status(500).send({ status: "error while adding new cart", error: e });
+        errorHandler(e.message, res);
     }
 }
 
 export const PostNewProductToCart = async (req, res) => {
     try {
         const { cid, pid } = req.params;
-        res.send(await db.addProductToCart(cid, pid));
+        const cart = await CartService.AddProductToCart(cid, pid, 1);
+        res.send({ status: "success", payload: cart });
     } catch (e) {
-        res
-            .status(500)
-            .send({ status: "error while adding product to cart", error: e });
+        errorHandler(e.message, res);
     }
 }
 
-export const PutCart = async (req, res) => {
+export const UpdateCart = async (req, res) => {
     try {
         const { cid } = req.params;
         const products = req.body.products;
-        if (!products) {
-            res.status(400).send({ status: "error", error: "missing data" });
-        } else {
-            res.send(await db.updateCart(cid, products));
-        }
+        const cart = await CartService.UpdateCart(cid, products);
+        res.send({ status: "success", payload: cart });
     } catch (e) {
-        res
-            .status(500)
-            .send({ status: "error while adding products to cart", error: e });
+        errorHandler(e.message, res);
     }
 }
 
@@ -50,33 +46,30 @@ export const PutProductToCart = async (req, res) => {
     try {
         const { cid, pid } = req.params;
         const qty = req.body.quantity;
-        if (!qty) {
-            res.status(400).send({ status: "error", error: "missing data" });
-        } else {
-            res.send(await db.addProductToCart(cid, pid, qty, "put"));
-        }
+        const cart = await CartService.AddProductToCart(cid, pid, qty, "put");
+        res.send({ status: "success", payload: cart });
     } catch (e) {
-        res.status(500).send({ status: "error while updating product quantity", error: e });
+        errorHandler(e.message, res);
     }
 }
 
 export const DeleteCart = async (req, res) => {
     try {
         const { cid } = req.params;
-        res.send(await db.deleteCart(cid));
+        const result = await CartService.DeleteCart(cid);
+        res.send({ status: "success", payload: result });
     } catch (e) {
-        res.status(500).send({ status: "error while deleting cart", error: e });
+        errorHandler(e.message, res);
     }
 }
 
 export const DeleteProductFromCart = async (req, res) => {
     try {
         const { cid, pid } = req.params;
-        res.send(await db.deleteProductFromCart(cid, pid));
+        const result = await CartService.DeleteProductFromCart(cid, pid);
+        res.send({ status: "success", payload: result });
     } catch (e) {
-        res
-            .status(500)
-            .send({ status: "error while deleting product from cart", error: e });
+        errorHandler(e.message, res);
     }
 }
 
