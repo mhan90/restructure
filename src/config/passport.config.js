@@ -47,8 +47,18 @@ const InitPassportStrategies = () => {
                 usernameField: "email"
             },
             async (req, email, password, done) => {
-                const user = await User.validateUser(email, password);
+                const user = (email == ENV.ADMIN_EMAIL && password == ENV.ADMIN_PW)
+                    ? {
+                        _id: 0,
+                        first_name: "Super",
+                        last_name: "Admin",
+                        email: ENV.ADMIN_EMAIL,
+                        password: "",
+                        role: "admin"
+                    }
+                    : await User.validateUser(email, password);
                 if (!user) return done("Invalid email/password combination");
+
                 return done(null, user);
             }
         )
@@ -89,7 +99,16 @@ const InitPassportStrategies = () => {
                 secretOrKey: ENV.JWT_SECRET,
             },
             async (payload, done) => {
-                const user = await User.getUserByID(payload.sub);
+                const user = (payload.sub == 0)
+                    ? {
+                        _id: 0,
+                        first_name: "Super",
+                        last_name: "Admin",
+                        email: ENV.ADMIN_EMAIL,
+                        password: "",
+                        role: "admin"
+                    }
+                    : await User.getUserByID(payload.sub);
                 if (!user) return done("Unauthorized");
                 return done(null, user);
             }
