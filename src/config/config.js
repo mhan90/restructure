@@ -1,8 +1,17 @@
 import dotenv from "dotenv";
+import { Command } from "commander";
 
-dotenv.config();
+const program = new Command();
+
+program.option("--env <env>", "app env", "production");
+program.parse();
+const options = program.opts();
+dotenv.config({
+    path: options.env == "production" ? "../.env.production" : "../.env.local",
+});
 
 export default {
+    PERSISTENCE: process.env.PERSISTENCE,
     MONGODB_URL: process.env.MONGODB_URL,
     GIT_ID: process.env.GIT_ID,
     GIT_SECRET: process.env.GIT_SECRET,

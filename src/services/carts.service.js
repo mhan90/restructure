@@ -1,8 +1,8 @@
-import { Carts } from "../dao/mongo/carts.dao.js";
-import Products from "../dao/mongo/products.dao.js";
+import DAOFactory from "../dao/dao.factory.js";
 
-const cartsDB = new Carts();
-const prodsDB = new Products();
+const { productsDAO, cartsDAO } = DAOFactory;
+const prodsDB = new productsDAO();
+const cartsDB = new cartsDAO();
 
 export const GetCart = async (id) => {
     try {

@@ -1,6 +1,7 @@
-import Products from "../dao/mongo/products.dao.js";
+import DAOFactory from "../dao/dao.factory.js";
 
-const db = new Products();
+const { productsDAO } = DAOFactory;
+const db = new productsDAO();
 
 export const GetProducts = async (query, limit, page, sort, host, url = "/api/products") => {
     if (!Number(page) || page < 0) throw new Error("invalid page");

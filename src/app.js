@@ -1,5 +1,4 @@
 import express from "express";
-import mongoose from "mongoose";
 import handlebars from "express-handlebars";
 import cookieParser from "cookie-parser";
 import session from "express-session";
@@ -15,8 +14,6 @@ import loginRouter from "./routes/login.router.js";
 import sessionRouter from "./routes/session.router.js";
 import ENV from "./config/config.js";
 
-// Setting MongoDB
-const conn = await mongoose.connect(ENV.MONGODB_URL);
 // Setting express
 const app = express();
 // Body middlewares
