@@ -12,22 +12,7 @@ export const GetProducts = async (query, limit, page, sort, host, url = "/api/pr
     try {
         const products = await db.getProducts(_query, _options);
         if (page > products.totalPages) throw new Error("invalid page");
-        url += "?";
-        if (query) url += `query=${query}&`;
-        if (sort) url += `sort=${sort}&`;
-        if (products.hasPrevPage) {
-            url += `limit=${limit}&page=${products.prevPage}`;
-            products.prevLink = new URL(url, `http://${host}`)
-        } else {
-            products.prevLink = null;
-        }
-        if (products.hasNextPage) {
-            url += `limit=${limit}&page=${products.nextPage}`;
-            products.nextLink = new URL(url, `http://${host}`)
-        } else {
-            products.nextLink = null;
-        }
-        return products;
+        return ProductDTO.addURL(query, limit, sort, host, url, products);
     } catch (e) {
         switch (e.message) {
             case "invalid page":

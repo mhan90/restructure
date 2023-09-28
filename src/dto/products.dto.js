@@ -23,3 +23,22 @@ export class Update {
         if (data.status) this.status = data.status.toLowerCase() === "true"; //parse to boolean
     }
 }
+
+export const addURL = (query, limit, sort, host, url, products) => {
+    url += "?";
+    if (query) url += `query=${query}&`;
+    if (sort) url += `sort=${sort}&`;
+    if (products.hasPrevPage) {
+        url += `limit=${limit}&page=${products.prevPage}`;
+        products.prevLink = new URL(url, `http://${host}`)
+    } else {
+        products.prevLink = null;
+    }
+    if (products.hasNextPage) {
+        url += `limit=${limit}&page=${products.nextPage}`;
+        products.nextLink = new URL(url, `http://${host}`)
+    } else {
+        products.nextLink = null;
+    }
+    return products;
+}
