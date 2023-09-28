@@ -1,4 +1,5 @@
 import DAOFactory from "../dao/dao.factory.js";
+import * as ProductDTO from "../dto/products.dto.js";
 
 const { productsDAO } = DAOFactory;
 const db = new productsDAO();
@@ -45,29 +46,13 @@ export const GetProductById = async (id) => {
     }
 }
 
-export const AddProduct = async ({ title, description, price, thumbnails, code, stock, category, status = "true" }) => {
+export const AddProduct = async (data) => {
     try {
-        if (
-            !title ||
-            !description ||
-            !code ||
-            !price ||
-            !stock ||
-            !category
-        ) throw new Error("missing data");
-
-        const prdtExists = await db.getProductByCode(code);
+        if (!data.title || !data.description || !data.code || !data.price || !data.stock || !data.category)
+            throw new Error("missing data");
+        const prdtExists = await db.getProductByCode(data.code);
         if (prdtExists) throw new Error("product already exists");
-        const newProduct = {
-            title,
-            description,
-            price: Number(price),
-            thumbnails,
-            code,
-            stock: Number(stock),
-            category,
-            status: status.toLowerCase() === "true", //parse to boolean
-        };
+        const newProduct = new ProductDTO.Create(data);
         return await db.addProduct(newProduct);
 
     } catch (e) {
@@ -84,10 +69,8 @@ export const AddProduct = async ({ title, description, price, thumbnails, code, 
 
 export const UpdateProduct = async (id, data) => {
     try {
-        if (data.price) data.price = Number(data.price);
-        if (data.stock) data.stock = Number(data.stock);
-        if (data.status) data.status = data.status.toLowerCase() === "true";
-        return await db.updateProduct(id, data);
+        const newData = new ProductDTO.Update(data);
+        return await db.updateProduct(id, newData);
     } catch (e) {
         throw new Error("db error");
     }
