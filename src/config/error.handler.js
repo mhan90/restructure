@@ -8,6 +8,7 @@ const errorHandler = (error, res) => {
         case "cart not found":
         case "product not found at cart":
         case "invalid product":
+        case "user not found":
             res.status(400).send(response);
             break;
         default:
