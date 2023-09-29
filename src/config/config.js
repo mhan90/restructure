@@ -11,6 +11,7 @@ dotenv.config({
 });
 
 export default {
+    PORT: process.env.PORT,
     PERSISTENCE: process.env.PERSISTENCE,
     MONGODB_URL: process.env.MONGODB_URL,
     GIT_ID: process.env.GIT_ID,

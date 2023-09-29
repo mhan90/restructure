@@ -19,7 +19,6 @@ const app = express();
 // Body middlewares
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-// Cookies config
 app.use(cookieParser());
 // Session config
 app.use(session({
@@ -50,6 +49,6 @@ app.use("/api/carts", cartsRouter);
 app.use("/api/login", loginRouter)
 app.use("/api/sessions", sessionRouter);
 // Listen
-app.listen(8080, () => {
-  console.log("Server is now listening at port: 8080.");
+app.listen(ENV.PORT, () => {
+  console.log(`Server is now listening at port: ${ENV.PORT}.`);
 });
