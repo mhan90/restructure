@@ -1,5 +1,4 @@
-import UserModel from "./models/user.model.js";
-import crypto from "crypto";
+import UserModel from "../models/user.model.js";
 import bcrypt from "bcrypt";
 
 export default class UserManager {

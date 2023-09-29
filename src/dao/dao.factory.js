@@ -7,7 +7,9 @@ const DAO = {
         await mongoose.connect(env.MONGODB_URL);
         const { default: productsDAO } = await import("./mongo/products.dao.js");
         const { default: cartsDAO } = await import("./mongo/carts.dao.js");
-        return { productsDAO, cartsDAO };
+        const { default: usersDAO } = await import("./mongo/users.dao.js");
+
+        return { productsDAO, cartsDAO, usersDAO };
     },
     fs: async () => {
         return null;

@@ -1,10 +1,9 @@
 import { Router } from "express";
-import ProductManager from "../dao/mongo/ProductManager.js";
-import CartManager from "../dao/mongo/CartManager.js";
+import ProductManager from "../dao/mongo/managers/ProductManager.js";
+import CartManager from "../dao/mongo/managers/CartManager.js";
 import { isLogged, protectView } from "../utils/protection.middleware.js";
 import passport from "passport";
 import passportMDW from "../utils/jwt.mdw.js";
-import { newToken } from "../utils/jwt.js";
 
 const mainRouter = Router();
 const prodsDB = new ProductManager();
