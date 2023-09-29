@@ -107,3 +107,30 @@ export const DeleteProductFromCart = async (cid, pid) => {
         }
     }
 }
+
+export const Checkout = async (cid) => {
+    try {
+        const cart = await cartsDB.findCart(cid);
+        if (!cart) throw new Error("cart not found");
+        const noStock = [];
+        for (const cartProd of cart.products) {
+            const _product = await prodsDB.getProductById(cartProd.product);
+            if (cartProd.quantity > _product.stock) {
+                noStock.push(cartProd.product);
+                continue;
+            };
+            _product.stock -= cartProd.quantity;
+            await prodsDB.updateCart(cartProd.product, { stock: _product.stock });
+
+
+        }
+    } catch (e) {
+        switch (e.message) {
+            case "cart not found":
+            case "product not found at cart":
+                throw e;
+            default:
+                throw new Error("db error");
+        }
+    }
+}

@@ -3,8 +3,8 @@ import * as CartService from "../services/carts.service.js";
 
 export const GetCart = async (req, res) => {
     try {
-        const { id } = req.params;
-        const cart = await CartService.GetCart(id);
+        const { cid } = req.params;
+        const cart = await CartService.GetCart(cid);
         if (!cart) throw new Error("cart not found");
         res.send({ status: "success", payload: cart });
     } catch (e) {
@@ -68,6 +68,16 @@ export const DeleteProductFromCart = async (req, res) => {
         const { cid, pid } = req.params;
         const result = await CartService.DeleteProductFromCart(cid, pid);
         res.send({ status: "success", payload: result });
+    } catch (e) {
+        errorHandler(e.message, res);
+    }
+}
+
+export const CheckoutCart = async (req, res) => {
+    try {
+        const { cid } = req.params;
+
+
     } catch (e) {
         errorHandler(e.message, res);
     }
