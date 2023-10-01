@@ -1,8 +1,9 @@
 import DAOFactory from "../dao/dao.factory.js";
 
-const { productsDAO, cartsDAO } = DAOFactory;
+const { productsDAO, cartsDAO, ticketsDAO } = DAOFactory;
 const prodsDB = new productsDAO();
 const cartsDB = new cartsDAO();
+const tktDB = new ticketsDAO();
 
 export const GetCart = async (id) => {
     try {
@@ -12,9 +13,12 @@ export const GetCart = async (id) => {
     }
 }
 
-export const AddCart = async () => {
+export const AddCart = async (email) => {
     try {
-        const newCart = { products: [] };
+        const newCart = {
+            purchaser: email,
+            products: []
+        };
         return await cartsDB.addCart(newCart);
     } catch (e) {
         throw new Error("db error");
@@ -112,18 +116,38 @@ export const Checkout = async (cid) => {
     try {
         const cart = await cartsDB.findCart(cid);
         if (!cart) throw new Error("cart not found");
-        const noStock = [];
-        for (const cartProd of cart.products) {
-            const _product = await prodsDB.getProductById(cartProd.product);
-            if (cartProd.quantity > _product.stock) {
-                noStock.push(cartProd.product);
+
+        const noStockIds = [];
+        const noStockProducts = [];
+        const amount = 0;
+
+        for (const productToPurchase of cart.products) {
+            const _product = await prodsDB.getProductById(productToPurchase.product);
+            if (productToPurchase.quantity > _product.stock) {
+                noStockIds.push(productToPurchase.product);
+                noStockProducts.push(productToPurchase);
                 continue;
             };
-            _product.stock -= cartProd.quantity;
-            await prodsDB.updateCart(cartProd.product, { stock: _product.stock });
-
-
+            _product.stock -= productToPurchase.quantity;
+            await prodsDB.updateCart(productToPurchase.product, { stock: _product.stock });
+            amount += productToPurchase.quantity * _product.price;
         }
+
+        if (amount == 0) return { noStockIds };
+
+        await cartsDB.updateCart(cid, { products: noStockProducts });
+
+        const data = {
+            code: Math.floor(Math.random() * Date.now()).toString(36),
+            purchase_datetime: new Date().toUTCString(),
+            amount,
+            purchaser: cart.purchaser
+        }
+
+        const ticket = await ticketsDAO.addTicket(data);
+
+        return { noStockIds, ticket };
+
     } catch (e) {
         switch (e.message) {
             case "cart not found":
