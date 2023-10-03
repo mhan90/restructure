@@ -2,7 +2,7 @@ import passport from "passport";
 import local from "passport-local";
 import GithubStrategy from "passport-github2";
 import jwt from "passport-jwt";
-import UserManager from "../dao/mongo/UserManager.js";
+import UserManager from "../dao/mongo/managers/UserManager.js";
 import cookieExtrator from "../utils/cookieJWT.js";
 import ENV from "../config/config.js";
 
@@ -53,7 +53,7 @@ const InitPassportStrategies = () => {
                         first_name: "Super",
                         last_name: "Admin",
                         email: ENV.ADMIN_EMAIL,
-                        password: "",
+                        password: ENV.ADMIN_PW,
                         role: "admin"
                     }
                     : await User.validateUser(email, password);
@@ -105,7 +105,7 @@ const InitPassportStrategies = () => {
                         first_name: "Super",
                         last_name: "Admin",
                         email: ENV.ADMIN_EMAIL,
-                        password: "",
+                        password: ENV.ADMIN_PW,
                         role: "admin"
                     }
                     : await User.getUserByID(payload.sub);

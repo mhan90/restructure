@@ -9,14 +9,15 @@ const dao = new usersDAO();
 
 export const ValidateUser = async (email, password) => {
     try {
-        const user = null;
+        if (!email || !password) return false;
+        let user = null;
         if (email == ENV.ADMIN_EMAIL && password == ENV.ADMIN_PW) {
             user = {
                 _id: 0,
                 first_name: "Super",
                 last_name: "Admin",
                 email: ENV.ADMIN_EMAIL,
-                password: "",
+                password: ENV.ADMIN_PW,
                 role: "admin"
             }
         } else {
@@ -31,6 +32,7 @@ export const ValidateUser = async (email, password) => {
         });
         return token;
     } catch (e) {
+        console.log(e);
         throw new Error("db error");
     }
 }

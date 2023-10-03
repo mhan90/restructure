@@ -14,7 +14,6 @@ export const GetCart = async (req, res) => {
 
 export const PostNewCart = async (req, res) => {
     try {
-        const email = req.user.email;
         const cart = await CartService.AddCart(email);
         res.send({ status: "success", payload: cart });
     } catch (e) {
@@ -77,8 +76,9 @@ export const DeleteProductFromCart = async (req, res) => {
 export const CheckoutCart = async (req, res) => {
     try {
         const { cid } = req.params;
-
-
+        const { email } = req.user;
+        const payload = await CartService.Checkout(cid, email);
+        res.send({ status: "success", payload });
     } catch (e) {
         errorHandler(e.message, res);
     }

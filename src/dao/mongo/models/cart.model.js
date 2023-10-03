@@ -1,10 +1,6 @@
 import mongoose from "mongoose";
 
 const schema = new mongoose.Schema({
-  purchaser: {
-    type: String,
-    required: true
-  },
   products: {
     type: [
       {

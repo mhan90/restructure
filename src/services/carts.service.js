@@ -13,10 +13,9 @@ export const GetCart = async (id) => {
     }
 }
 
-export const AddCart = async (email) => {
+export const AddCart = async () => {
     try {
         const newCart = {
-            purchaser: email,
             products: []
         };
         return await cartsDB.addCart(newCart);
@@ -43,7 +42,6 @@ export const AddProductToCart = async (cid, pid, qty, method = "post") => {
             const newProduct = { product: pid, quantity: qty };
             cart.products.push(newProduct);
         }
-        // await cart.save();
         return await cartsDB.updateCart(cid, { products: cart.products });
     } catch (e) {
         switch (e.message) {
@@ -112,14 +110,14 @@ export const DeleteProductFromCart = async (cid, pid) => {
     }
 }
 
-export const Checkout = async (cid) => {
+export const Checkout = async (cid, email) => {
     try {
         const cart = await cartsDB.findCart(cid);
         if (!cart) throw new Error("cart not found");
 
         const noStockIds = [];
         const noStockProducts = [];
-        const amount = 0;
+        let amount = 0;
 
         for (const productToPurchase of cart.products) {
             const _product = await prodsDB.getProductById(productToPurchase.product);
@@ -129,7 +127,7 @@ export const Checkout = async (cid) => {
                 continue;
             };
             _product.stock -= productToPurchase.quantity;
-            await prodsDB.updateCart(productToPurchase.product, { stock: _product.stock });
+            await prodsDB.updateProduct(productToPurchase.product, { stock: _product.stock });
             amount += productToPurchase.quantity * _product.price;
         }
 
@@ -141,14 +139,15 @@ export const Checkout = async (cid) => {
             code: Math.floor(Math.random() * Date.now()).toString(36),
             purchase_datetime: new Date().toUTCString(),
             amount,
-            purchaser: cart.purchaser
+            purchaser: email
         }
 
-        const ticket = await ticketsDAO.addTicket(data);
+        const ticket = await tktDB.addTicket(data);
 
         return { noStockIds, ticket };
 
     } catch (e) {
+        console.log(e);
         switch (e.message) {
             case "cart not found":
             case "product not found at cart":
