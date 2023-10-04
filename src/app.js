@@ -13,6 +13,7 @@ import authRouter from "./routes/auth.router.js";
 import loginRouter from "./routes/login.router.js";
 import sessionRouter from "./routes/session.router.js";
 import ENV from "./config/config.js";
+import ErrorHandler from "./utils/mdw.error.js";
 
 // Setting express
 const app = express();
@@ -48,6 +49,7 @@ app.use("/api/products", productsRouter);
 app.use("/api/carts", cartsRouter);
 app.use("/api/login", loginRouter)
 app.use("/api/sessions", sessionRouter);
+app.use(ErrorHandler);
 // Listen
 app.listen(ENV.PORT, () => {
   console.log(`Server is now listening at port: ${ENV.PORT}.`);
