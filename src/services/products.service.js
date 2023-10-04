@@ -1,5 +1,8 @@
 import DAOFactory from "../dao/dao.factory.js";
 import * as ProductDTO from "../dto/products.dto.js";
+import CustomError from "../utils/custom.error.js";
+import EErrors from "../utils/enum.error.js";
+import { productInfoError } from "../utils/causes.error.js";
 
 const { productsDAO } = DAOFactory;
 const db = new productsDAO();
@@ -32,24 +35,17 @@ export const GetProductById = async (id) => {
 }
 
 export const AddProduct = async (data) => {
-    try {
-        if (!data.title || !data.description || !data.code || !data.price || !data.stock || !data.category)
-            throw new Error("missing data");
-        const prdtExists = await db.getProductByCode(data.code);
-        if (prdtExists) throw new Error("product already exists");
-        const newProduct = new ProductDTO.Create(data);
-        return await db.addProduct(newProduct);
-
-    } catch (e) {
-        switch (e.message) {
-            case "missing data":
-            case "product already exists":
-                throw e;
-            default:
-                throw new Error("db error");
-        }
-    }
-
+    if (!data.title || !data.description || !data.code || !data.price || !data.stock || !data.category)
+        CustomError.newError({
+            message: 'product was not added',
+            cause: productInfoError(data),
+            name: 'new product error',
+            code: EErrors.USER_INPUT_ERROR
+        });
+    const prdtExists = await db.getProductByCode(data.code);
+    if (prdtExists) throw new Error("product already exists");
+    const newProduct = new ProductDTO.Create(data);
+    return await db.addProduct(newProduct);
 }
 
 export const UpdateProduct = async (id, data) => {
