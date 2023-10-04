@@ -1,69 +1,33 @@
 import DAOFactory from "../dao/dao.factory.js";
 import * as ProductDTO from "../dto/products.dto.js";
-import CustomError from "../utils/custom.error.js";
-import EErrors from "../utils/enum.error.js";
-import { productInfoError } from "../utils/causes.error.js";
+import * as error from "../utils/custom.error.js";
 
 const { productsDAO } = DAOFactory;
 const db = new productsDAO();
 
 export const GetProducts = async (query, limit, page, sort, host, url = "/api/products") => {
-    if (!Number(page) || page < 0) {
-        CustomError.newError({
-            message: 'invalid page',
-            cause: 'page should be > 0',
-            name: 'invalid page',
-            code: EErrors.USER_INPUT_ERROR
-        });
-    }
+    page = Number(page);
+    if (!page || page < 0) error.invalidPage(page, null);
     const _query = query ? JSON.parse(query) : {};
     const _options = { limit, page, customLabels: { docs: "payload" }, lean: true, leanWithId: false };
     if (sort) _options.sort = { price: sort };
-
     const products = await db.getProducts(_query, _options);
-
-    if (page > products.totalPages) {
-        CustomError.newError({
-            message: 'invalid page',
-            cause: `page should be <= ${products.totalPage}`,
-            name: 'invalid page',
-            code: EErrors.USER_INPUT_ERROR
-        });
-    }
-
+    if (page > products.totalPages) error.invalidPage(page, products.totalPages);
     return ProductDTO.addURL(query, limit, sort, host, url, products);
 }
 
 export const GetProductById = async (id) => {
     const product = await db.getProductById(id);
-    if (!product) {
-        CustomError.newError({
-            message: 'product not found',
-            cause: `product with id ${id} not found`,
-            name: 'product not found',
-            code: EErrors.USER_INPUT_ERROR
-        });
-    };
+    if (!product) error.notFound("product", id)
+    return product;
 }
 
 export const AddProduct = async (data) => {
     if (!data.title || !data.description || !data.code || !data.price || !data.stock || !data.category) {
-        CustomError.newError({
-            message: 'product was not added',
-            cause: productInfoError(data),
-            name: 'new product error',
-            code: EErrors.USER_INPUT_ERROR
-        });
+        error.newProductError(data);
     }
     const prdtExists = await db.getProductByCode(data.code);
-    if (prdtExists) {
-        CustomError.newError({
-            message: 'product already exists',
-            cause: `product with code ${data.code} already exists`,
-            name: 'new product error',
-            code: EErrors.USER_INPUT_ERROR
-        });
-    }
+    if (prdtExists) error.productExists(data.code);
 
     const newProduct = new ProductDTO.Create(data);
 

@@ -1,5 +1,4 @@
 import * as ProductService from "../services/products.service.js";
-import errorHandler from "../config/error.handler.js";
 
 export const GetProducts = async (req, res) => {
     const host = req.headers.host;
