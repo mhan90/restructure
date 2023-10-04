@@ -12,7 +12,7 @@ export const GetProducts = async (query, limit, page, sort, host, url = "/api/pr
         CustomError.newError({
             message: 'invalid page',
             cause: 'page should be > 0',
-            name: 'product get error',
+            name: 'invalid page',
             code: EErrors.USER_INPUT_ERROR
         });
     }
@@ -26,7 +26,7 @@ export const GetProducts = async (query, limit, page, sort, host, url = "/api/pr
         CustomError.newError({
             message: 'invalid page',
             cause: `page should be <= ${products.totalPage}`,
-            name: 'product get error',
+            name: 'invalid page',
             code: EErrors.USER_INPUT_ERROR
         });
     }
@@ -35,7 +35,15 @@ export const GetProducts = async (query, limit, page, sort, host, url = "/api/pr
 }
 
 export const GetProductById = async (id) => {
-    return await db.getProductById(id);
+    const product = await db.getProductById(id);
+    if (!product) {
+        CustomError.newError({
+            message: 'product not found',
+            cause: `product with id ${id} not found`,
+            name: 'product not found',
+            code: EErrors.USER_INPUT_ERROR
+        });
+    };
 }
 
 export const AddProduct = async (data) => {
@@ -48,7 +56,15 @@ export const AddProduct = async (data) => {
         });
     }
     const prdtExists = await db.getProductByCode(data.code);
-    if (prdtExists) throw new Error("product already exists");
+    if (prdtExists) {
+        CustomError.newError({
+            message: 'product already exists',
+            cause: `product with code ${data.code} already exists`,
+            name: 'new product error',
+            code: EErrors.USER_INPUT_ERROR
+        });
+    }
+
     const newProduct = new ProductDTO.Create(data);
 
     return await db.addProduct(newProduct);

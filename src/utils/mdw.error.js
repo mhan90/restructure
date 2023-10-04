@@ -1,4 +1,4 @@
-import EErrors from "./enum.error";
+import EErrors from "./enum.error.js";
 
 const ErrorHandler = (error, req, res, next) => {
     const response = { status: "error" };
