@@ -1,11 +1,12 @@
 import EErrors from "./enum.error.js";
 
 const ErrorHandler = (error, req, res, next) => {
+    console.log("ERROR HANDLER HERE!")
     const response = { status: "error" };
     switch (error.code) {
         case EErrors.USER_INPUT_ERROR:
             console.log(error.cause);
-            response.message = error.message
+            response.message = error.message;
             res.status(400).send(response);
             break;
         case EErrors.DATABASE_ERROR:
@@ -17,6 +18,7 @@ const ErrorHandler = (error, req, res, next) => {
             response.msg = "unhandled error/promise";
             res.status(500).send(response);
     }
+    next();
 }
 
 export default ErrorHandler;

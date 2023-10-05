@@ -14,6 +14,7 @@ import loginRouter from "./routes/login.router.js";
 import sessionRouter from "./routes/session.router.js";
 import ENV from "./config/config.js";
 import ErrorHandler from "./utils/mdw.error.js";
+import mocker from "./routes/mocker.products.js";
 
 // Setting express
 const app = express();
@@ -49,6 +50,7 @@ app.use("/api/products", productsRouter);
 app.use("/api/carts", cartsRouter);
 app.use("/api/login", loginRouter)
 app.use("/api/sessions", sessionRouter);
+app.use("/api/mockingproducts", mocker);
 app.use(ErrorHandler);
 // Listen
 app.listen(ENV.PORT, () => {
