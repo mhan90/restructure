@@ -1,16 +1,17 @@
-import CustomError from "./error.js";
+// import CustomError from "./error.js";
 import * as cause from "./causes.error.js";
 import EErrors from "./enum.error.js";
 
-/* class CustomError {
+class CustomError {
     static create({ message, cause, name = "Error", code = 1 }) {
-        const error = new Error(message, { cause });
+        const error = new Error(message);
         error.name = name;
         error.code = code;
+        error.cause = cause;
         throw error;
     }
 }
- */
+
 export const newProductError = (product) => {
     CustomError.create({
         message: 'product was not added',

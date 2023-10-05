@@ -18,7 +18,6 @@ const ErrorHandler = (error, req, res, next) => {
             response.msg = "unhandled error/promise";
             res.status(500).send(response);
     }
-    next();
 }
 
 export default ErrorHandler;
