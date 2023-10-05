@@ -1,6 +1,9 @@
 import DAOFactory from "../dao/dao.factory.js";
 import * as ProductDTO from "../dto/products.dto.js";
 import * as error from "../utils/custom.error.js";
+import CustomError2 from "../utils/error.js";
+import * as cause from "../utils/causes.error.js";
+import EErrors from "../utils/enum.error.js";
 
 const { productsDAO } = DAOFactory;
 const db = new productsDAO();
@@ -24,7 +27,12 @@ export const GetProductById = async (id) => {
 
 export const AddProduct = async (data) => {
     if (!data.title || !data.description || !data.code || !data.price || !data.stock || !data.category) {
-        error.newProductError(data);
+        CustomError2.create({
+            message: 'product was not added',
+            cause: cause.productInfoError(data),
+            name: 'new product error',
+            code: EErrors.USER_INPUT_ERROR
+        });
     }
     const prdtExists = await db.getProductByCode(data.code);
     if (prdtExists) error.productExists(data.code);
