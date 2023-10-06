@@ -7,10 +7,11 @@ program.option("--env <env>", "app env", "production");
 program.parse();
 const options = program.opts();
 dotenv.config({
-    path: options.env == "production" ? "../.env.production" : "../.env.local",
+    path: options.env == "production" ? "../.env.production" : "../.env.dev",
 });
 
 export default {
+    ENV: process.env.ENV,
     PORT: process.env.PORT,
     PERSISTENCE: process.env.PERSISTENCE,
     MONGODB_URL: process.env.MONGODB_URL,

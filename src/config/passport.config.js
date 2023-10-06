@@ -4,7 +4,7 @@ import GithubStrategy from "passport-github2";
 import jwt from "passport-jwt";
 import UserManager from "../dao/mongo/managers/UserManager.js";
 import cookieExtrator from "../utils/cookieJWT.js";
-import ENV from "../config/config.js";
+import ENV from "../config/dotenv.config.js";
 
 const User = new UserManager();
 

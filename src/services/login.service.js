@@ -1,7 +1,7 @@
 import DAOFactory from "../dao/dao.factory.js";
 import bcrypt from "bcrypt";
 import { newToken } from "../utils/jwt.js";
-import ENV from "../config/config.js"
+import ENV from "../config/dotenv.config.js"
 
 
 const { usersDAO } = DAOFactory;

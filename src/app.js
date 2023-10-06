@@ -12,9 +12,11 @@ import InitPassportStrategies from "./config/passport.config.js";
 import authRouter from "./routes/auth.router.js";
 import loginRouter from "./routes/login.router.js";
 import sessionRouter from "./routes/session.router.js";
-import ENV from "./config/config.js";
+import ENV from "./config/dotenv.config.js";
 import ErrorHandler from "./utils/mdw.error.js";
 import mocker from "./routes/mocker.products.js";
+import logger from "./config/loggers/prod.config.js";
+import loggerTest from "./routes/loggerTest.js";
 
 // Setting express
 const app = express();
@@ -51,8 +53,10 @@ app.use("/api/carts", cartsRouter);
 app.use("/api/login", loginRouter)
 app.use("/api/sessions", sessionRouter);
 app.use("/api/mockingproducts", mocker);
+app.use("/api/loggerTest", loggerTest);
 app.use(ErrorHandler);
 // Listen
-app.listen(ENV.PORT, () => {
-  console.log(`Server is now listening at port: ${ENV.PORT}.`);
+app.listen(ENV.PORT, (req) => {
+  logger.info(`Server is now listening at port: ${ENV.PORT} - ${new Date().toUTCString()}.`)
+  // console.log();
 });

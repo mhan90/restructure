@@ -1,20 +1,23 @@
 import EErrors from "./enum.error.js";
+import logger from "../config/loggers/logger.factory.js";
 
 const ErrorHandler = (error, req, res, next) => {
-    console.log("ERROR HANDLER HERE!")
     const response = { status: "error" };
     switch (error.code) {
         case EErrors.USER_INPUT_ERROR:
-            console.log(error.cause);
+            logger.warn(
+                `[${req.method}]${req.url} - ${new Date().toUTCString()}\n  error: ${error.name}\n  cause: ${error.cause}`);
             response.message = error.message;
             res.status(400).send(response);
             break;
         case EErrors.DATABASE_ERROR:
-            console.log(error);
+            logger.error(
+                `[${req.method}]${req.url} - ${new Date().toUTCString()}\n  error: ${error}`);
             res.status(500);
             break;
         default:
-            console.log(error);
+            logger.error(
+                `[${req.method}]${req.url} - ${new Date().toUTCString()}\n  error: ${error}`);
             response.msg = "unhandled error/promise";
             res.status(500).send(response);
     }

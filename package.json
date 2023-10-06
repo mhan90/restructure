@@ -1,11 +1,13 @@
 {
-  "name": "mongo_integration",
+  "name": "ecommer",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/app.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node app.js --env dev",
+    "prod": "node app.js --env production"
   },
   "keywords": [],
   "author": "",
@@ -27,6 +29,7 @@
     "passport": "^0.6.0",
     "passport-github2": "^0.1.12",
     "passport-jwt": "^4.0.1",
-    "passport-local": "^1.0.0"
+    "passport-local": "^1.0.0",
+    "winston": "^3.10.0"
   }
 }
