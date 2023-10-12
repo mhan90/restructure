@@ -3,11 +3,17 @@ config:
     metrics-by-endpoint: {}
   target: http://localhost:8080/api
   phases:
-    - duration: 30
-      arrivalRate: 10
+    - duration: 5
+      arrivalRate: 1
 scenarios:
   - name: post, get and delete a product
     flow:
+      - log: login as admin
+      - post:
+          url: /login
+          json:
+            email: "superAdmin@coder.com"
+            password: "$v8e5@dM14nK093r"
       - log: mock a product
       - get:
           url: /mockingproducts
@@ -37,9 +43,12 @@ scenarios:
             stock: "{{ stock }}"
             category: "{{ category }}"
             status: "false"
-      # - log: get the product
-      # - get:
-      #     url: /products/{{pid}}
-      # - log: delete the product
-      # - delete:
-      #     url: /products/{{pid}}
+          capture:
+            - json: "$.payload._id"
+              as: "pid"
+      - log: get the product
+      - get:
+          url: /products/{{pid}}
+      - log: delete the product
+      - delete:
+          url: /products/{{pid}}
