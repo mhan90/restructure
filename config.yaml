@@ -11,9 +11,6 @@ scenarios:
       - log: login as admin
       - post:
           url: /login
-          json:
-            email: "superAdmin@coder.com"
-            password: "$v8e5@dM14nK093r"
       - log: mock a product
       - get:
           url: /mockingproducts
