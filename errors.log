@@ -1,1 +1,1207 @@
 info: Server is now listening at port: 8080 - Tue, 10 Oct 2023 16:38:31 GMT.
+info: Server is now listening at port: 8080 - Thu, 12 Oct 2023 16:56:37 GMT.
+info: Server is now listening at port: 8080 - Thu, 12 Oct 2023 18:01:06 GMT.
+info: Server is now listening at port: 8080 - Thu, 12 Oct 2023 18:37:56 GMT.
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:11 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:11 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:12 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:12 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:12 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:12 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:12 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:12 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:12 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:13 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:13 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:13 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:13 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:13 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:13 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:13 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:13 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:13 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:14 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:14 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:14 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:14 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:14 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:14 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:14 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:14 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:14 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:14 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:14 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:14 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:14 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:14 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:14 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:14 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:14 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:15 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:15 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:15 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:15 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:15 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:15 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:15 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:15 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:15 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:15 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:15 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:15 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:15 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:15 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:15 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:15 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:15 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:15 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:16 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:16 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:16 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:16 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:16 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:16 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:16 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:16 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:16 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:16 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:16 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:16 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:17 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:17 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:17 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:17 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:17 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:17 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:17 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:17 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:17 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:17 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:17 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:18 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:18 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:18 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:18 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:18 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:18 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:18 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:18 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:18 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:18 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:18 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:19 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:19 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:19 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:19 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:19 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:19 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:19 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:19 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:20 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:20 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:20 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:20 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:20 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:20 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:20 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:20 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:21 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:21 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:21 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:21 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:21 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:21 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:21 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:21 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:21 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:21 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:21 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:21 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:21 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:21 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:21 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:22 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:22 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:22 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:22 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:22 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:22 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:22 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:22 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:22 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:22 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:22 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:23 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:23 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:23 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:23 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:23 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:23 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:24 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:24 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:24 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:24 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:24 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:24 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:24 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:24 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:24 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:24 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:24 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:25 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:25 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:25 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:25 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:25 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:25 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:25 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:25 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:25 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:26 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:26 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:26 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:26 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:26 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:26 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:26 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:26 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:26 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:26 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:26 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:26 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:26 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:27 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:27 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:27 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:27 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:27 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:27 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:27 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:27 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:27 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:27 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:27 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:28 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:28 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:28 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:28 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:28 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:28 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:28 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:28 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:29 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:29 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:29 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:29 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:29 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:29 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:29 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:29 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:29 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:29 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:29 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:29 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:30 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:30 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:30 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:30 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:30 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:30 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:30 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:30 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:30 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:31 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:31 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:31 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:31 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:31 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:31 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:31 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:31 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:31 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:32 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:32 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:32 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:32 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:32 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:32 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:32 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:32 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:32 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:32 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:32 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:33 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:33 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:33 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:33 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:33 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:33 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:33 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:33 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:33 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:33 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:33 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:33 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:34 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:34 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:34 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:34 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:34 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:34 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:34 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:34 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:34 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:34 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:35 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:35 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:35 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:35 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:35 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:35 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:35 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:35 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:36 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:36 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:36 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:36 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:36 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:36 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:36 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:36 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:36 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:36 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:36 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:36 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:37 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:37 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:37 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:37 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:37 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:37 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:37 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:38 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:38 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:38 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:38 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:38 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:38 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:38 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:38 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:38 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:38 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:39 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:39 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:39 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:39 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:39 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:39 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:39 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:39 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:39 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:39 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:40 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:41 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+error: [GET]/api/products/undefined - Thu, 12 Oct 2023 18:39:41 GMT
+  error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "products"
+info: Server is now listening at port: 8080 - Thu, 12 Oct 2023 18:53:19 GMT.
+info: Server is now listening at port: 8080 - Thu, 12 Oct 2023 18:53:28 GMT.
+info: Server is now listening at port: 8080 - Thu, 12 Oct 2023 18:57:17 GMT.
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:33 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:33 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:33 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:33 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:33 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:33 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:33 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:33 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:34 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:34 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:34 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:34 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:34 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:34 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:34 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:34 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:34 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:35 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:35 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:35 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:35 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:35 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:35 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:35 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:35 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:35 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:35 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:36 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:36 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:36 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:36 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:36 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:36 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:36 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:36 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:36 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:36 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:36 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:36 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:36 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:36 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:36 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:36 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:37 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:37 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:37 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:37 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:37 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:37 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:37 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:37 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:37 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:37 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:37 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:37 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:37 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:38 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:38 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:38 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:38 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:38 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:38 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:38 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:38 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:38 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:38 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:38 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:38 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:39 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:39 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:39 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:39 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:39 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:39 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:39 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:39 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:39 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:39 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:40 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:40 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:40 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:40 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:40 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:40 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:40 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:40 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:40 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:41 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:41 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:41 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:41 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:41 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:41 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:41 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:41 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:41 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:42 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:42 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:42 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:42 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:42 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:42 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:42 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:42 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:42 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:42 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:42 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:42 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:43 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:43 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:43 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:43 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:43 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:43 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:43 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:43 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:44 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:44 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:44 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:44 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:44 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:44 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:44 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:44 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:44 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:45 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:45 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:45 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:45 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:45 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:45 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:45 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:45 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:45 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:45 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:45 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:46 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:46 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:46 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:46 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:46 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:46 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:46 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:46 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:46 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:46 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:46 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:47 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:47 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:47 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:47 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:47 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:47 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:47 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:47 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:47 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:47 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:48 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:48 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:48 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:48 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:48 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:48 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:48 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:48 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:48 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:48 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:49 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:49 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:49 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:49 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:49 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:49 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:49 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:49 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:49 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:50 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:50 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:50 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:50 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:50 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:50 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:50 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:50 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:51 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:51 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:51 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:51 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:51 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:51 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:51 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:51 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:51 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:51 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:51 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:51 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:52 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:52 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:52 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:52 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:52 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:52 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:52 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:52 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:52 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:52 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:52 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:53 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:53 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:53 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:53 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:53 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:53 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:53 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:53 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:54 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:54 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:54 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:54 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:54 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:54 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:54 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:55 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:55 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:55 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:55 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:55 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:55 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:55 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:55 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:55 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:55 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:56 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:56 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:56 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:56 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:56 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:56 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:56 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:56 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:56 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:57 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:57 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:57 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:57 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:57 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:57 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:57 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:57 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:57 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:57 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:57 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:57 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:57 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:57 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:57 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:58 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:58 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:58 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:58 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:58 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:58 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:58 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:58 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:58 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:58 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:59 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:59 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:59 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:59 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:59 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:59 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:59 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:59 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:59 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:59 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:59 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:57:59 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:58:00 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:58:00 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:58:00 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:58:00 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:58:00 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:58:00 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:58:00 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:58:00 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:58:00 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:58:00 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:58:00 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:58:01 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:58:01 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:58:01 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:58:01 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:58:01 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:58:01 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:58:01 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:58:01 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:58:02 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:58:02 GMT
+  error: TypeError: data.status.toLowerCase is not a function
+error: [POST]/api/products - Thu, 12 Oct 2023 18:58:03 GMT
+  error: TypeError: data.status.toLowerCase is not a function

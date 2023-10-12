@@ -1,0 +1,45 @@
+config:
+  pluggins:
+    metrics-by-endpoint: {}
+  target: http://localhost:8080/api
+  phases:
+    - duration: 30
+      arrivalRate: 10
+scenarios:
+  - name: post, get and delete a product
+    flow:
+      - log: mock a product
+      - get:
+          url: /mockingproducts
+          capture:
+            - json: "$.product.title"
+              as: "title"
+            - json: "$.product.description"
+              as: "description"
+            - json: "$.product.price"
+              as: "price"
+            - json: "$.product.code"
+              as: "code"
+            - json: "$.product.stock"
+              as: "stock"
+            - json: "$.product.category"
+              as: "category"
+            - json: "$.product.status"
+              as: "status"
+      - log: post a product
+      - post:
+          url: /products
+          json:
+            title: "{{ title }}"
+            description: "{{ description }}"
+            price: "{{ price }}"
+            code: "{{ code }}"
+            stock: "{{ stock }}"
+            category: "{{ category }}"
+            status: "false"
+      # - log: get the product
+      # - get:
+      #     url: /products/{{pid}}
+      # - log: delete the product
+      # - delete:
+      #     url: /products/{{pid}}
