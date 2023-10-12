@@ -29,7 +29,6 @@ export const PostNewProduct = async (req, res, next) => {
         product.thumbnails = [];
         if (files) files.forEach((file) => product.thumbnails.push(file.path));
         const result = await ProductService.AddProduct(product);
-        console.log(result);
         res.send({ status: "success", payload: result });
     } catch (e) {
         next(e);
