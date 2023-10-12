@@ -1,13 +1,15 @@
 {
-  "name": "ecommer",
+  "name": "ecommerce",
   "version": "1.0.0",
   "description": "",
-  "main": "src/app.js",
+  "main": "",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node app.js --env dev",
-    "prod": "node app.js --env production"
+    "dev": "node src/app.js --env dev",
+    "prod": "node src/app.js --env production",
+    "start": "node src/app.js",
+    "image-prod": "docker build -t app-prod ."
   },
   "keywords": [],
   "author": "",

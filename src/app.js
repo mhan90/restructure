@@ -58,5 +58,4 @@ app.use(ErrorHandler);
 // Listen
 app.listen(ENV.PORT, (req) => {
   logger.info(`Server is now listening at port: ${ENV.PORT} - ${new Date().toUTCString()}.`)
-  // console.log();
 });

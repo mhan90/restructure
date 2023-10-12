@@ -7,7 +7,7 @@ program.option("--env <env>", "app env", "production");
 program.parse();
 const options = program.opts();
 dotenv.config({
-    path: options.env == "production" ? "../.env.production" : "../.env.dev",
+    path: options.env == "production" ? "./.env.production" : "./.env.dev",
 });
 
 export default {
