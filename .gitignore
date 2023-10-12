@@ -2,4 +2,5 @@ node_modules
 .env.dev
 .env.production
 src/errors.log
+errors.log
 test
