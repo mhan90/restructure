@@ -59,7 +59,7 @@ app.use("/api/loggerTest", loggerTest);
 app.use(ErrorHandler);
 // Listen
 if (cluster.isPrimary) {
-  for (let i = 0; i <= cpus().length; i++) cluster.fork();
+  for (let i = 0; i < cpus().length; i++) cluster.fork();
 
 } else {
   app.listen(ENV.PORT, (req) => {

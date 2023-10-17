@@ -10,6 +10,7 @@
     "prod": "node src/app.js --env production",
     "start": "node src/app.js",
     "image-prod": "docker build -t app-prod .",
+    "container-prod": "docker run -p 8090:8080 app-prod",
     "performance": "artillery run ./config.yaml -o ./test/performance.json",
     "report": "artillery report ./test/performance.json"
   },
