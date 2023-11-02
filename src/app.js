@@ -19,9 +19,16 @@ import logger from "./config/loggers/prod.config.js";
 import loggerTest from "./routes/loggerTest.js";
 import cluster from "cluster";
 import { cpus } from "os";
+import swaggerJSDoc from "swagger-jsdoc";
+import { serve, setup } from "swagger-ui-express";
+import swgConf from "./config/swagger.js";
 
 // Setting express
 const app = express();
+
+// Swagger
+const specs = swaggerJSDoc(swgConf);
+
 // Body middlewares
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
@@ -56,6 +63,7 @@ app.use("/api/login", loginRouter)
 app.use("/api/sessions", sessionRouter);
 app.use("/api/mockingproducts", mocker);
 app.use("/api/loggerTest", loggerTest);
+app.use("/api/docs", serve, setup(specs));
 app.use(ErrorHandler);
 // Listen
 if (cluster.isPrimary) {
