@@ -4,8 +4,8 @@ const options = {
     definition: {
         openapi: "3.0.1",
         info: {
-            title: "Swagger for Ecommerce Project",
-            description: "web service documentation",
+            title: "Ecommerce REST API",
+            description: "Documentation",
         },
     },
     apis: [`${__dirname}/config/docs/*.yaml`]
